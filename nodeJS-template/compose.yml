@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  node-app:
+    build: .
+    container_name: node-app-container
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/usr/src/node-app
+      - /usr/src/node-app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
