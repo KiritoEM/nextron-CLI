@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Un outil qui vous permet de récupérer directement des templates d'applications depuis GitHub",
   "main": "bin/index.js",
+  "type": "module",
   "scripts": {
     "CLI": "node bin/index.js"
   },
-  "type": "module",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^12.1.0",

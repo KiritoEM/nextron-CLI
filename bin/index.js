@@ -6,6 +6,7 @@ import { questions, templates } from "../lib/__mock__.js";
 import { openDirectory, renameFolder } from "../lib/os_helpers.js";
 import { cloneTemplate } from "../lib/git_services.js";
 import ora from 'ora';
+import path from "path";
 
 const { description, version } = packageJson;
 
@@ -26,7 +27,16 @@ const run = async () => {
         spinner.text = 'Clonage du dépôt en cours...';
         spinner.start();
 
-        const tempDir = await cloneTemplate("https://github.com/KiritoEM/nextron-CLI.git", folderPath, templates[templates.template]);
+        const template = templates[answers.template];
+        if (!template) {
+            throw new Error('Template not found');
+        }
+
+        const tempDir = await cloneTemplate(
+            "https://github.com/KiritoEM/templates.git",
+            folderPath[0],
+            template
+        );
 
         spinner.succeed('Dépôt cloné avec succès.');
 
@@ -36,7 +46,9 @@ const run = async () => {
             message: 'Renommer le dossier du template',
         });
 
-        await renameFolder(tempDir, newFolderName);
+        const finalPath = path.join(folderPath[0], newFolderName);
+
+        await renameFolder(tempDir, finalPath);
 
         console.log(`Dossier renommé en ${newFolderName}`);
     } catch (error) {
@@ -46,3 +58,4 @@ const run = async () => {
 };
 
 run();
+
