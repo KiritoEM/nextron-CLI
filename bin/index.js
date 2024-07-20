@@ -48,7 +48,7 @@ const run = async () => {
 
         const finalPath = path.join(folderPath, newFolderName);
 
-        await renameFolder(tempDir, newFolderName);
+        await renameFolder(tempDir, finalPath);
 
         console.log(`Dossier renommé en ${newFolderName}`);
     } catch (error) {
