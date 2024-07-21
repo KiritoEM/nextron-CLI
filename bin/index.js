@@ -46,7 +46,7 @@ const run = async () => {
             message: 'Renommer le dossier du template',
         });
 
-        const finalPath = path.join(folderPath, newFolderName);
+        const finalPath = path.join(folderPath[0], newFolderName);
 
         await renameFolder(tempDir, finalPath);
 
