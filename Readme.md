@@ -8,6 +8,13 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
 ## Prérequis pour lancer le CLI
 - Version Node.js > 18
 - npm 
+- sur linux(Ubuntu/Debian):
+   ```bash
+   sudo apt update
+   sudo apt install fuse
+-sur windows(optionnel):
+   ```bash
+   npm install -g windows-build-tools
 
 ## Templates disponibles
 - node.js
