@@ -7,8 +7,8 @@ Bienvenue sur Nextron-CLI ❕, un petit outil qui vous permet de récupérer dir
 - npm 
 
 ## Templates disponibles
--node.js
--flask
+- node.js
+- flask
 
 ## Installation et utilisation du CLI
 
