@@ -1,6 +1,9 @@
 # Nextron-CLI
 
 Bienvenue sur Nextron-CLI ❕, un petit outil qui vous permet de récupérer directement quelques templates d'applications depuis GitHub par CLI.
+
+https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
+
   
 ## Prérequis pour lancer le CLI
 - Version Node.js > 18
