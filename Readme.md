@@ -32,6 +32,7 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
     
 3. Installer les dépendences et lancer l'application
    ```js
+   cd nextron-CLI
    npm install
    npm run CLI
    ```
