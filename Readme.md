@@ -14,11 +14,11 @@ Bienvenue sur Nextron-CLI ❕, un petit outil qui vous permet de récupérer dir
 
 1. Cloner le projet depuis GitHub :
 
-   ```bash
+   ```js
    git clone https://github.com/KiritoEM/nextron-CLI
     
 3. Installer les dépendences et lancer l'application
-     ```bash
+     ```js
    npm install
    npm run CLI
 
