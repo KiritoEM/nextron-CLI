@@ -1,12 +1,15 @@
 import inquirer from "inquirer";
 import plugin from "../lib/plugin.js";
 import { program } from "commander";
-import packageJson from './../package.json' assert { type: 'json' };
 import { questions, templates } from "../lib/__mock__.js";
 import { openDirectory, renameFolder } from "../lib/os_helpers.js";
 import { cloneTemplate } from "../lib/git_services.js";
 import ora from 'ora';
 import path from "path";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+const packageJson = require('./../package.json');
 
 const { description, version } = packageJson;
 
