@@ -12,9 +12,11 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
    ```bash
    sudo apt update
    sudo apt install fuse
+   ```
 -sur windows(optionnel):
    ```bash
    npm install -g windows-build-tools
+   ```
 
 ## Templates disponibles
 - node.js
@@ -26,10 +28,12 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
 
    ```js
    git clone https://github.com/KiritoEM/nextron-CLI
+   ```
     
 3. Installer les dépendences et lancer l'application
-     ```js
+   ```js
    npm install
    npm run CLI
+   ```
 
   Fait avec 💗 par KiritoEM
