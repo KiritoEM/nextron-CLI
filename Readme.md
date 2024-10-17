@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
 1. Cloner le projet depuis GitHub :
 
    ```js
-   git clone https://github.com/KiritoEM/nextron-CLI
+   git clone https://github.com/KiritoEM/Nextron-CLI
    ```
     
 3. Installer les dépendences et lancer l'application
