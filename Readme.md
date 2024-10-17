@@ -19,8 +19,19 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
    ```
 
 ## Templates disponibles
-- node.js
+- node.js(mongoose)
+   - [X] Compression
+   - [X] Cors
+   - [X] Express
+   - [X] Dotenv
+   - [X] Mongoose
+   - [X] Nodemon
+   - [X] Docker
 - next.js(typescript)
+   - [X] Shadcn/ui
+   - [X] Framer-motion
+   - [X] GSAP
+   - [X] Tailwind CSS
 <!-- - flask -->
 
 ## Installation et utilisation du CLI
