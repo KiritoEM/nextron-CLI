@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/e0f015db-a94b-48d5-a855-9f0b2ae357fe
    ```
 
 ## Templates disponibles
-- node.js(mongoose)
+- node.js(mongodb)
    - [X] Compression
    - [X] Cors
    - [X] Express
